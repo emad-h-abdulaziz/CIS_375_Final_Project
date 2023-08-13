@@ -43,13 +43,15 @@
     }
 </style>
 
-<h1>Welcome to the Website Prototype</h1>
-<button on:click={startFunction}>Start</button>
-<button on:click={stopFunction}>Stop</button>
-<label for="algorithmSelect">Choose an Algorithm:</label>
-<select id="algorithmSelect" on:change={handleAlgorithmSelection}>
-    <option value="bubble">Bubble Sort</option>
-    <option value="merge">Merge Sort</option>
-    <option value="heap">Heap Sort</option>
-    <!-- Add more algorithms as needed -->
-</select>
+<body>
+    <h1>Welcome to the Website Prototype</h1>
+    <button on:click={startFunction}>Start</button>
+    <button on:click={stopFunction}>Stop</button>
+    <label for="algorithmSelect">Choose an Algorithm:</label>
+    <select id="algorithmSelect" on:change={handleAlgorithmSelection}>
+        <option value="bubble">Bubble Sort</option>
+        <option value="merge">Merge Sort</option>
+        <option value="heap">Heap Sort</option>
+        <!-- Add more algorithms as needed -->
+    </select>
+</body>
